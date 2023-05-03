@@ -73,7 +73,7 @@
 
 <p align="center" style='color: blue;'>
     Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
-<p/>
+</p>
 
 [[Become a sponsor](https://opencollective.com/gitea#sponsor)]
 
@@ -101,7 +101,10 @@
 
 <br/>
 
-This project is licensed under the MIT License.
+<p align="center" style='color: blue;'>
+   This project is licensed under the MIT License.
+</p>
+
 See the [LICENSE](https://github.com/go-gitea/gitea/blob/main/LICENSE) file
 for the full license text.
 
@@ -115,7 +118,9 @@ for the full license text.
 
 <br/>
 
-Looking for an overview of the interface? Check it out!
+<p align="center" style='color: blue;'>
+   Looking for an overview of the interface? Check it out!
+</p>
 
 <br/>
 
