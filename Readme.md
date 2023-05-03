@@ -71,7 +71,11 @@
 
 <br/>
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/gitea#sponsor)]
+<p align="center" style='color: blue;'>
+    Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+<p/>
+
+[[Become a sponsor](https://opencollective.com/gitea#sponsor)]
 
 <br/>
 
