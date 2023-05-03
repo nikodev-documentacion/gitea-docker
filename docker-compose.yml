@@ -1,0 +1,46 @@
+version: "3"
+
+networks:
+  gitea:
+    external: false
+
+services:
+  psqldb:
+    container_name: psqldb
+    image: postgres:14
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: gitea
+      POSTGRES_PASSWORD: gitea
+      POSTGRES_DB: giteadb
+    volumes:
+      - $PWD/postgres:/var/lib/postgresql/data
+
+  gitea:
+    image: gitea/gitea:1.19.0
+    container_name: gitea
+    environment:
+      USER_UID: 1000
+      USER_GID: 1000
+      GITEA__database__DB_TYPE: postgres
+      # GITEA__database__HOST: staging.smandes.gov.ar:5432
+      GITEA__database__HOST: psqldb # conectando por nombre de servicio
+      GITEA__database__NAME: giteadb
+      GITEA__database__USER: gitea
+      GITEA__database__PASSWD: gitea
+    restart: always
+    depends_on:
+      - psqldb
+    volumes:
+      - ./gitea:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3001:3000"
+      - "2221:22"
+    expose:
+      - 3001
+      - 2221
+# doc https://docs.gitea.io/en-us/install-with-docker/#ports
