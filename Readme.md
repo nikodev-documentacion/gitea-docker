@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<br/>
+<br/><br/>
 
 <p align="center">
   <a href="https://drone.gitea.io/go-gitea/gitea" title="Build Status">
@@ -61,11 +61,19 @@
   <a href="http://staging.smandes.gov.ar/gitea/Documentacion/gitea/wiki">Lea más acerca de su implementación</a>
 </p>
 
+<br/>
+
 ---
 
-## Sponsors
+<br/>
+
+<h3 align="center">Sponsors</h3>
+
+<br/>
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/gitea#sponsor)]
+
+<br/>
 
 <a href="https://opencollective.com/gitea/sponsor/0/website" target="_blank"><img src="https://opencollective.com/gitea/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/gitea/sponsor/1/website" target="_blank"><img src="https://opencollective.com/gitea/sponsor/1/avatar.svg"></a>
@@ -79,23 +87,41 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/gitea/sponsor/9/website" target="_blank"><img src="https://opencollective.com/gitea/sponsor/9/avatar.svg"></a>
 <a href="https://cynkra.com/" target="_blank"><img src="https://images.opencollective.com/cynkra/logo/square/64/192.png"></a>
 
+<br/>
+
 ---
 
-## License
+<br/>
+
+<h3 align="center">License</h3>
+
+<br/>
 
 This project is licensed under the MIT License.
 See the [LICENSE](https://github.com/go-gitea/gitea/blob/main/LICENSE) file
 for the full license text.
 
-## Screenshots
+<br/>
+
+---
+
+<br/>
+
+<h3 align="center">Screenshots</h3>
+
+<br/>
 
 Looking for an overview of the interface? Check it out!
+
+<br/>
 
 |       ![Dashboard](https://dl.gitea.io/screenshots/home_timeline.png)        |  ![User Profile](https://dl.gitea.io/screenshots/user_profile.png)   | ![Global Issues](https://dl.gitea.io/screenshots/global_issues.png) |
 | :--------------------------------------------------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------: |
 |          ![Branches](https://dl.gitea.io/screenshots/branches.png)           |    ![Web Editor](https://dl.gitea.io/screenshots/web_editor.png)     |      ![Activity](https://dl.gitea.io/screenshots/activity.png)      |
 |       ![New Migration](https://dl.gitea.io/screenshots/migration.png)        |     ![Migrating](https://dl.gitea.io/screenshots/migration.gif)      |       ![Pull Request View](https://image.ibb.co/e02dSb/6.png)       |
 | ![Pull Request Dark](https://dl.gitea.io/screenshots/pull_requests_dark.png) | ![Diff Review Dark](https://dl.gitea.io/screenshots/review_dark.png) |     ![Diff Dark](https://dl.gitea.io/screenshots/diff_dark.png)     |
+
+<br/>
 
 ---
 
