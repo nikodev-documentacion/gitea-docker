@@ -25,7 +25,7 @@ services:
       USER_UID: 1000
       USER_GID: 1000
       GITEA__database__DB_TYPE: postgres
-      # GITEA__database__HOST: staging.smandes.gov.ar:5432
+      # GITEA__database__HOST: staging.domain.com:5432
       GITEA__database__HOST: psqldb # conectando por nombre de servicio
       GITEA__database__NAME: giteadb
       GITEA__database__USER: gitea
