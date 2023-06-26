@@ -58,7 +58,7 @@
 </p>
 
 <p align="center">
-  <a href="http://staging.smandes.gov.ar/gitea/Documentacion/gitea/wiki">Lea más acerca de su implementación</a>
+  <a href="https://github.com/nikodev-documentacion/gitea-docker/wiki">Lea más acerca de su implementación</a>
 </p>
 
 <br/>
