@@ -1,4 +1,4 @@
-<h1 align="center">Gitea Municipalidad SMA</h1>
+<h1 align="center">Gitea Test</h1>
 
 <h4 align="center">Versionamiento de código autoalojado</h4>
 
